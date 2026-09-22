@@ -1,0 +1,112 @@
+inspection_id,part_id,plant,inspection_date,inspector_name,quantity_inspected,quantity_defective,defect_types,severity,result
+128,3,Plant_Hu1,2026-05-10,S. Yilmaz,250,8,"Dimensional OOT, Surface Void",Low,fail
+131,4,  PLANT_TR1 ,2026-04-09,A. Weber,242,9,,,PASS
+126,3,Plant_De1,2026-04-19,J. Nagy,186,4,,,PASS
+107,1,Plant_Hu1,2026-04-05,M. Fischer,265,6,Weld Crack,Medium,FAIL
+195,11,Plant_HU1,2026-04-14,M. Fischer,253,7,Color Mismatch,High,  Fail 
+146,5,PLANT_TR1,2026-05-04,S. Yilmaz,298,1,,,Pass
+188,10,PLANT_DE1,2026-04-02,K. Kovacs,169,4,,,Pass
+176,8,PLANT_TR1,2026-06-15,A. Weber,515,9,,,Pass
+139,4,PLANT_HU1,2026-06-12,M. Fischer,479,14,Dimensional OOT,Low,Fail 
+177,8,Plant_DE1,2026-06-20,K. Kovacs,344,12,,,pass
+171,8,PLANT_HU1,2026-04-16,J. Nagy,433,11,,,Pass
+207,12, Plant_De1,2026-04-25,R. Demir,175,6,,,  Pass 
+173,8,Plant_Tr1,2026-05-14,J. Nagy,486,8,,,Pass
+123,2,plant_hu1,2026-06-12,R. Demir,531,8,Dimensional OOT,Low,FAIL
+117,2,PLANT_HU1,2026-05-05,R. Demir,538,12,,,Pass
+129,3, Plant_De1  ,2026-06-13,K. Kovacs,461,4,,,PASS
+170,8,plant_de1,2026-04-13,K. Kovacs,485,18,,,Pass
+149,5,Plant_De1,2026-06-22,J. Nagy,224,3,,,pass
+121,2,PLANT_TR1,2026-06-08,K. Kovacs,279,8,,,  pass 
+204,11,plant_hu1,2026-06-04,S. Yilmaz,509,16,Peeling,Medium,Fail
+109,1,Plant_Hu1,2026-05-06,M. Fischer,534,5,,,pass
+164,7, Plant_Hu1 ,2026-06-09,J. Nagy,121,-4,,,Pass
+174,8,PLANT_TR1,2026-06-25,K. Kovacs,550,5,,,Pass
+114,2,Plant_DE1,2026-04-06,R. Demir,111,4,,,Pass
+175,8,plant_hu1 ,2026-06-08,M. Fischer,433,0,,,Pass
+138,4,Plant_TR1,2026-06-11,A. Weber,130,4,,,pass
+157,6,PLANT_TR1,2026-06-25,R. Demir,102 units,0,,,pass
+201,11,plant_tr1,2026-06-04,J. Nagy,584,1,,,PASS
+151,6,PLANT_TR1,2026-04-02,S. Yilmaz,80,3,,,PASS
+200,11, PLANT_DE1  ,2026-05-25,J. Nagy,466,15,,, Pass  
+113,1,PLANT_TR1,2026-06-18,R. Demir,500,8,,,  pass
+169,8,Plant_Hu1,2026-04-14,S. Yilmaz,409,8,Short Circuit,High, Fail
+167,7, plant_de1  ,2026-06-27,M. Fischer,337,1,"Short Circuit, Wire Chafing",Medium,Fail
+210,12,PLANT_HU1,2026-05-24,M. Fischer,250,4,,, PASS  
+133,4,Plant_Hu1,2026-04-03,J. Nagy,533,19,,Medium,Fail
+185,9,Plant_TR1,2026-06-06,J. Nagy,501,0,,,pass
+162,7,  Plant_DE1,2026-05-26,M. Fischer,93,2,,,  Pass
+209,12,plant_tr1,2026-05-01,unknown,463,15,,,Pass
+115,2,PLANT_DE1,2026-04-19,A. Weber,419,6,,,  PASS 
+124,3,Plant_De1,2026-04-21,S. Yilmaz,416,4,Dimensional OOT,Critical,Fail
+187,10,  Plant_DE1  ,2026-04-02,unknown,118,-4,,,Pass
+143,5,Plant_DE1,2026-04-11,S. Yilmaz,233,7,Warping,High,  FAIL  
+111,1, plant_de1 ,2026-06-03,R. Demir,307,10,,,  pass  
+136,4,Plant_TR1,2026-05-16,A. Weber,254,-1,,,pass  
+130,3,Plant_DE1,2026-06-04,J. Nagy,318,10,,,pass
+154,6,Plant_Tr1,2026-05-27,M. Fischer,461,6,,,Pass
+119,2,Plant_Hu1,2026-05-27,K. Kovacs,411,9,,,PASS
+125,3,Plant_TR1,2026-04-07,J. Nagy,87,2,,,PASS
+211,12,plant_tr1,2026-05-27,M. Fischer,590,7,,,Pass
+181,9,PLANT_TR1  ,2026-05-06,R. Demir,438,2,,,pass
+158,6,  PLANT_TR1  ,2026-06-12,R. Demir,552 units,15,,,PASS
+161,7,plant_hu1  ,2026-04-06,M. Fischer,575,4,,,pass
+180,9,Plant_Tr1,2026-04-21,unknown,152,3,,,pass
+108,1,PLANT_DE1,2026-04-20,K. Kovacs,530 units,16,,, Pass  
+127,3,  plant_tr1 ,2026-05-18,S. Yilmaz,118,1,,,Pass
+153,6,plant_hu1,2026-05-20,K. Kovacs,377,10,,,PASS
+155,6,plant_de1,2026-05-05,K. Kovacs,566,5,,,Pass
+134,4,PLANT_HU1,2026-05-03,A. Weber,103,0,,,  Pass 
+122,2,plant_hu1,2026-06-05,J. Nagy,586,7,,,Pass
+183,9,  Plant_TR1 ,2026-05-21,K. Kovacs,210,-2,,, Pass
+202,11,Plant_Tr1,2026-06-05,A. Weber,342,8,,,PASS
+132,4,Plant_TR1 ,2026-04-01,R. Demir,101,3,,,Pass
+110,1,plant_tr1,2026-05-13,J. Nagy,446,11,,,Pass
+166,7,plant_hu1,2026-06-21,A. Weber,306,10,,,pass
+165,7,Plant_TR1,2026-06-10,J. Nagy,291,9,,,pass
+156,6,plant_de1 ,2026-06-17,R. Demir,528,17,,,pass
+191,10,Plant_DE1  ,2026-05-24,R. Demir,547 units,21,Missing Coating,Medium,  fail 
+188,10,PLANT_DE1,2026-04-02,K. Kovacs,169,4,,,Pass
+116,2,plant_tr1,2026-04-02,J. Nagy,544 units,18,,, Pass 
+198,11,PLANT_HU1,2026-04-25,J. Nagy,461 units,12,,,  pass 
+144,5,Plant_Hu1  ,2026-05-11,K. Kovacs,407,16,,,Pass
+159,7,  PLANT_HU1  ,2026-04-08,S. Yilmaz,241,-7,,,Pass
+133,4,Plant_Hu1,2026-04-03,J. Nagy,533,19,,Medium,Fail
+205,12,Plant_Hu1,2026-04-27,A. Weber,500,5,,,PASS
+112,1,plant_hu1,2026-06-03,N/A,245,2,,,Pass
+212,12,PLANT_HU1,2026-06-25,S. Yilmaz,173,6,"Color Mismatch, Uneven Thickness",Low,fail
+194,10,PLANT_TR1,2026-06-15,M. Fischer,284,5,,,PASS
+203,11,plant_tr1,2026-06-13,A. Weber,456,7,,,Pass
+152,6,plant_de1,2026-05-14,,191,7,Color Mismatch,High,Fail  
+142,5,plant_tr1,2026-04-25,R. Demir,215,6,,,Pass 
+190,10,Plant_TR1,2026-05-11,S. Yilmaz,559,14,,,Pass
+172,8,  PLANT_TR1  ,2026-05-02,M. Fischer,141,0,,,Pass
+196,11,plant_hu1,2026-04-26,J. Nagy,557,22,,,Pass
+148,5,PLANT_HU1,2026-06-18,R. Demir,542,1,,,  Pass
+192,10,Plant_Tr1,2026-06-19,K. Kovacs,469,18,,,Pass
+182,9,PLANT_TR1,2026-05-10,M. Fischer,376,3,,,pass
+189,10, plant_tr1,2026-05-11,R. Demir,237,247,"Thread Defect, Incorrect Torque",High,Fail
+141,5,Plant_TR1,2026-04-13,A. Weber,101,3,Color Mismatch,Critical,Fail
+163,7,Plant_DE1,2026-05-20,,564,14,,,Pass
+145,5,plant_hu1,2026-05-06,K. Kovacs,416,16,,,Pass
+189,10, plant_tr1,2026-05-11,R. Demir,237,247,"Thread Defect, Incorrect Torque",High,Fail
+150,6, Plant_TR1,2026-04-26,M. Fischer,389,-11,Warping,Medium,Fail
+160,7,Plant_DE1,2026-04-01,R. Demir,251,9,Wire Chafing,Medium,Fail
+168,8,PLANT_HU1,2026-04-26,K. Kovacs,333,2,,,Pass
+193,10,plant_hu1  ,2026-06-08,K. Kovacs,128,2,,, Pass 
+197,11,Plant_HU1 ,2026-04-18,A. Weber,82 units,1,,, PASS
+148,5,PLANT_HU1,2026-06-18,R. Demir,542,1,,,  Pass
+184,9,Plant_Tr1,2026-05-12,J. Nagy,576,13,,,pass
+140,5,plant_tr1  ,2026-04-07,K. Kovacs,312,4,,, Pass 
+186,9, plant_tr1,2026-06-02,K. Kovacs,549,10,,,Pass
+147,5,Plant_TR1,2026-06-22,R. Demir,406,1,,,  PASS 
+208,12,Plant_HU1  ,2026-05-26,A. Weber,353,2,"Peeling, Uneven Thickness",High,Fail
+118,2,  Plant_De1 ,2026-05-16,R. Demir,224,4,,,Pass
+137,4,plant_tr1,2026-06-10,A. Weber,578,-2,,,pass
+135,4,Plant_Tr1,2026-05-03,M. Fischer,483,16,,,  PASS  
+178,9,PLANT_DE1,2026-04-05,J. Nagy,88,2,,,pass
+206,12,Plant_DE1,2026-04-16,J. Nagy,445,10,,,pass
+213,12,PLANT_HU1 ,2026-06-01,K. Kovacs,221,6,,,Pass
+199,11,Plant_Hu1,2026-05-24,S. Yilmaz,137,3,Uneven Thickness,High, Fail 
+120,2,Plant_Hu1,2026-06-09,S. Yilmaz,569,3,,,pass
+179,9,Plant_HU1,2026-04-09,S. Yilmaz,425,7,,,PASS

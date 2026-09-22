@@ -1,0 +1,7 @@
+supplier_id,supplier_name,country,tier
+1,AlphaMetal,Germany,Tier1
+2,BetaCast,Hungary,Tier1
+3,GammaPlastics,Poland,Tier2
+4,DeltaElectric,Germany,Tier1
+5,OmegaFasteners,Turkey,Tier2
+6,SigmaCoatings,Hungary,Tier2

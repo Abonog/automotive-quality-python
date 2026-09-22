@@ -1,0 +1,13 @@
+part_id,part_name,category,supplier_id
+1,Engine Bracket,Bracket,1
+2,Chassis Bracket,Bracket,1
+3,Transmission Casting,Casting,2
+4,Engine Block Casting,Casting,2
+5,Interior Trim Panel,Plastic Trim,3
+6,Bumper Cover,Plastic Trim,3
+7,Main Wiring Harness,Wiring Harness,4
+8,Door Wiring Harness,Wiring Harness,4
+9,Wheel Fastener Kit,Fastener,5
+10,Engine Fastener Kit,Fastener,5
+11,Body Panel Coating,Coating,6
+12,Underbody Coating,Coating,6
