@@ -1,6 +1,6 @@
 # Automotive Quality Data — Python (pandas & matplotlib) Analysis
 
-A Python/pandas project built on the same realistic (synthetic) automotive manufacturing quality data as [`automotive-quality-sql`](../automotive-quality-sql) — supplier inspections and defects — this time cleaned, wrangled, and visualized end-to-end with pandas and matplotlib instead of SQL.
+A Python/pandas project built on the same realistic (synthetic) automotive manufacturing quality data as [`automotive-quality-sql`](https://github.com/Abonog/automotive-quality-sql) — supplier inspections and defects — this time cleaned, wrangled, and visualized end-to-end with pandas and matplotlib instead of SQL.
 
 I currently work as a Quality Engineer in the automotive industry. This project takes the same kind of messy, real-world inspection data I work with and runs it through a full analyst workflow: clean it, combine it, join in context, derive a risk signal, and visualize it — while treating every chart and every summary statistic as something to verify, not just something to look at and trust.
 
@@ -10,9 +10,11 @@ I currently work as a Quality Engineer in the automotive industry. This project 
 - **`scripts/01_cleaning.py`** — cleans Q1 and Q2 independently.
 - **`scripts/02_wrangling.py`** — combines, joins, derives a risk column, and builds two pivot tables.
 - **`scripts/03_visualization.py`** — builds all six charts below and saves them to `charts/`.
-- **`charts/`** — the rendered PNG output of the visualization script.
+- **Chart images** (`01_bar_risk_level.png` to `06_dashboard_subplots.png`, at the top level of the repo) — the rendered output of the visualization script.
 
 Run in order: `python scripts/01_cleaning.py && python scripts/02_wrangling.py && python scripts/03_visualization.py`
+
+Before running, create empty `data/processed/` and `charts/` folders: the scripts write their outputs there.
 
 ## Part 1 — Cleaning
 
@@ -39,12 +41,12 @@ Six charts, all built with an explicit colorblind-safe palette (Okabe-Ito) rathe
 
 | Chart | File | What it shows |
 |---|---|---|
-| Bar | [`01_bar_risk_level.png`](charts/01_bar_risk_level.png) | Risk level counts — see table above. |
-| Histogram | [`02_histogram_defects.png`](charts/02_histogram_defects.png) | Distribution of `quantity_defective`, zoomed to `range=(0, 30)`. Without the zoom, the two outlier rows (117, 247) stretch the bins so far that almost all 20 bins are empty and the real shape disappears. |
-| Box plot | [`03_boxplot_supplier.png`](charts/03_boxplot_supplier.png) | `quantity_defective` by supplier. Every supplier's typical spread (box height / IQR) is similar — around 6.5 to 8.5 — despite AlphaMetal and OmegaFasteners visually dominating the chart with their outlier dots at 117 and 247. |
-| Pie | [`04_piechart_severity.png`](charts/04_piechart_severity.png) | Severity share — but only of the 40 inspections that had a defect at all (`.value_counts()` silently drops the 173 rows with no `severity` set, since it's only assigned when there's a defect to rate). |
-| Scatter | [`05_scatter_inspected_vs_defective.png`](charts/05_scatter_inspected_vs_defective.png) | `quantity_inspected` vs. `quantity_defective`. Correlation on the raw 213 rows is a near-zero 0.057 — which looks like "no relationship" — but excluding the two flagged outlier rows brings it to a real, moderate 0.534. The two numbers tell opposite stories; only the chart makes clear which one is true. |
-| Dashboard | [`06_dashboard_subplots.png`](charts/06_dashboard_subplots.png) | Four of the above combined into one 2×2 figure — a single at-a-glance quality summary. |
+| Bar | [`01_bar_risk_level.png`](01_bar_risk_level.png) | Risk level counts — see table above. |
+| Histogram | [`02_histogram_defects.png`](02_histogram_defects.png) | Distribution of `quantity_defective`, zoomed to `range=(0, 30)`. Without the zoom, the two outlier rows (117, 247) stretch the bins so far that almost all 20 bins are empty and the real shape disappears. |
+| Box plot | [`03_boxplot_supplier.png`](03_boxplot_supplier.png) | `quantity_defective` by supplier. Every supplier's typical spread (box height / IQR) is similar — around 6.5 to 8.5 — despite AlphaMetal and OmegaFasteners visually dominating the chart with their outlier dots at 117 and 247. |
+| Pie | [`04_piechart_severity.png`](04_piechart_severity.png) | Severity share — but only of the 40 inspections that had a defect at all (`.value_counts()` silently drops the 173 rows with no `severity` set, since it's only assigned when there's a defect to rate). |
+| Scatter | [`05_scatter_inspected_vs_defective.png`](05_scatter_inspected_vs_defective.png) | `quantity_inspected` vs. `quantity_defective`. Correlation on the raw 213 rows is a near-zero 0.057 — which looks like "no relationship" — but excluding the two flagged outlier rows brings it to a real, moderate 0.534. The two numbers tell opposite stories; only the chart makes clear which one is true. |
+| Dashboard | [`06_dashboard_subplots.png`](06_dashboard_subplots.png) | Four of the above combined into one 2×2 figure — a single at-a-glance quality summary. |
 
 ## Lessons that came out of building this
 
